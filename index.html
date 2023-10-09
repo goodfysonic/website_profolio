@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Personal Website of Huy </title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" type="image/x-icon" href="/images/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body class="relative">
+
+    <nav class="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 left-0 border-b border-black dark:border-gray-600">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+            <a href="#" class="flex items-center">
+                <img src="images/logo.png" class="h-8 mr-3 w-8" alt="TGH logo">
+                <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">TGH</span>
+            </a>
+            <div class="flex md:order-2">
+                <button type="button"
+                    class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Download
+                    CV</button>
+                <button data-collapse-toggle="navbar-sticky" type="button"
+                    class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600 mobile-btn"
+                    aria-controls="navbar-sticky" aria-expanded="false">
+                    <span class="sr-only">Open main menu</span>
+                    <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                        viewBox="0 0 17 14">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M1 1h15M1 7h15M1 13h15" />
+                    </svg>
+                </button>
+            </div>
+            <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1 mobile-menu"
+                id="navbar-sticky">
+                <ul
+                    class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                    <li>
+                        <a href="#home"
+                            class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700    "
+                            aria-current="page">Home</a>
+                    </li>
+                    <li>
+                        <a href="#about"
+                            class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">About</a>
+                    </li>
+                    <li>
+                        <a href="#projects"
+                            class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#contact"
+                            class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <header id="home" class="container h-screen justify-center items-center">
+        <div class="content">
+            <span class="blur"></span>
+            <span class="blur"></span>
+            <h4>WELCOME</h4>
+            <H1>Hi, I'm <span>Tran Gia Huy</span> <p class="!text-orange-400 text-2xl md:text-4xl">_Web Developer_</p></H1>
+            <p class="!text-slate-400">
+                I receive website design ideas and start building them using programming languages ​​like CSS,
+                JavaScript, PHP, Python, etc.
+            </p>
+            <!-- <button class="btn get-started-btn">Get Started</button> -->
+            <a href="#contact" class="text-center text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Get Started</a>
+        </div>
+        <div class="image hidden md:block">
+            <img src="images/header2.png">
+        </div>
+    </header>
+
+    <!-- About -->
+    <section id="about" class="container">
+        <h2 class="header">ABOUT ME</h2>
+        <div class="features">
+            <div class="card">
+                <span>
+                    <i class="ri-money-dollar-box-line"></i>
+                </span>
+                <h4>3rd-Year student in HCMUTE university</h4>
+                <p>
+                    10 self-projects and 2 group-projects
+                </p>
+                <a href="#">
+                    <i class="ri-code-box-line"></i>
+                </a>
+            </div>
+
+            <div class="card">
+                <span>
+                    <i class="ri-bug-line"></i>
+                </span>
+                <h4>Skills</h4>
+                <p>
+                <ul class="list-disc pl-2">
+                    <li>Next.js</li>
+                    <li>Node.js</li>
+                    <li>Express.js</li>
+                    <li>Redux</li>
+                    <li>Mongodb</li>
+                    <li>SQL Server</li>
+                    <li>Tailwindcss</li>
+                </ul>
+
+                </p>
+                <a href="#">
+                    <i class="ri-code-box-line"></i>
+                </a>
+            </div>
+
+            <div class="card">
+                <span>
+                    <i class="ri-history-line"></i>
+                </span>
+                <h4>Experiences</h4>
+                <p>
+                    Comming Soon
+                </p>
+                <a href="#">
+                    <i class="ri-code-box-line"></i>
+                </a>
+            </div>
+
+            <div class="card">
+                <span>
+                    <i class="ri-shake-hands-line"></i>
+                </span>
+                <h4>Cooperations</h4>
+                <p>
+                    Comming Soon
+                </p>
+                <a href="#">
+                    <i class="ri-code-box-line"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project -->
+    <section id="projects" class="container">
+        <h2 class="header text-red-500">PROJECTS</h2>
+        <p class="sub-header">
+
+        </p>
+        <div class="pricing">
+            <!-- Projects will be rendered here -->
+        </div>
+    </section>
+    <!-- Contact -->
+    <footer id="contact"
+        class="place-items-center w-[1024px] max-w-[80%] m-auto my-[2rem] grid md:grid-cols-2 grid-cols-1 gap-2 md:gap-8 relative ">
+        <span class="blur"></span>
+        <span class="blur"></span>
+        <div class="column flex justtify-center items-center flex-col col-span-1">
+            <div class="logo">
+                <img src="images/logo.png">
+            </div>
+            <!-- <p class="text-center text-slate-400 block ml-4 my-8">
+                "Rules of Optimization:
+                Rule 1: Don't do it.
+                Rule 2 (for experts only): Don't do it yet. ”
+
+            </p> -->
+            <div class="socials">
+                <a href="https://www.youtube.com/@lxc55555"><i class="ri-youtube-line"></i></a>
+                <a href="#"><i class="ri-instagram-line"></i></a>
+                <a href="https://github.com/goodfysonic"><i class="ri-github-line"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100015093107359"><i class="ri-facebook-line"></i></a>
+                <a href="#"><i class="ri-linkedin-line"></i></a>
+            </div>
+        </div>
+        <div class="w-full col-span-1 my-4 md:my-8">
+            <h2 class="text-xl md:text-3xl uppercase text-white text-extrabold leading-none tracking-tight text-center">
+                Contact me</h2>
+            <form class="mt-8 send-email-fm">
+                <div class="relative z-0 w-full mb-6 group">
+                    <input type="email" name="floating_email" id="floating_email"
+                        class="user-email block py-2.5 px-0 w-full text-sm text-white bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+                        placeholder=" " required />
+                    <label for="floating_email"
+                        class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Email
+                        address</label>
+                </div>
+                <div class="relative z-0 w-full mb-6 group">
+                    <input name="floating_password" id="floating_password"
+                        class="user-subject block py-2.5 px-0 w-full text-sm text-white bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+                        placeholder=" " required />
+                    <label for="floating_password"
+                        class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Subject</label>
+                </div>
+                <div class="relative z-0 w-full mb-6 group">
+                    <textarea name="repeat_password" id="floating_repeat_password"
+                        class="user-message block py-2.5 px-0 w-full h-28 text-sm overflow-hidden text-white bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+                        placeholder=" " required></textarea>
+                    <label for="floating_repeat_password"
+                        class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Message</label>
+                </div>
+                <button type="submit"
+                    class="disabled:bg-gray-200 disabled:text-slate-600 send-email-btn text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 mt-4 mx-auto">Send
+                    Message</button>
+            </form>
+
+        </div>
+    </footer>
+    <!-- Footer -->
+    <div class="copyright mt-12">
+        Copyright @ 2023 Tran Gia Huy Groups, Inc. All Rights Reserved
+    </div>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script type="module" src="./js/script.js"></script>
+</body>
+
+</html>

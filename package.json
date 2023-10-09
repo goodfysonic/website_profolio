@@ -1,0 +1,16 @@
+{
+  "name": "my-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./js/script.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "emailjs": "^4.0.3"
+  }
+}
